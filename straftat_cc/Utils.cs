@@ -188,49 +188,4 @@ namespace STRAFTAT_CC
             return null;
         }
     }
-
-    public static class Drawing
-    {
-        private static Texture2D lineTex;
-
-        public static void DrawLine(Vector2 pointA, Vector2 pointB, float width)
-        {
-            if (!lineTex)
-            {
-                lineTex = new Texture2D(1, 1);
-                lineTex.SetPixel(0, 0, Color.white);
-                lineTex.Apply();
-            }
-
-            Matrix4x4 matrix = GUI.matrix;
-            Color savedColor = GUI.color;
-
-            float angle = Mathf.Atan2(pointB.y - pointA.y, pointB.x - pointA.x) * 180f / Mathf.PI;
-            float length = Vector2.Distance(pointA, pointB);
-
-            GUI.color = Color.white;
-            GUI.matrix = Matrix4x4.TRS(pointA, Quaternion.Euler(0, 0, angle), Vector3.one);
-            GUI.DrawTexture(new Rect(0, -width / 2, length, width), lineTex);
-
-            GUI.matrix = matrix;
-            GUI.color = savedColor;
-        }
-
-        public static void DrawBox(Rect rect, float thickness, Color color)
-        {
-            Color oldColor = GUI.color;
-            GUI.color = color;
-
-            // Top
-            DrawLine(new Vector2(rect.x, rect.y), new Vector2(rect.x + rect.width, rect.y), thickness);
-            // Bottom
-            DrawLine(new Vector2(rect.x, rect.y + rect.height), new Vector2(rect.x + rect.width, rect.y + rect.height), thickness);
-            // Left
-            DrawLine(new Vector2(rect.x, rect.y), new Vector2(rect.x, rect.y + rect.height), thickness);
-            // Right
-            DrawLine(new Vector2(rect.x + rect.width, rect.y), new Vector2(rect.x + rect.width, rect.y + rect.height), thickness);
-
-            GUI.color = oldColor;
-        }
-    }
 }

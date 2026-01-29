@@ -30,20 +30,17 @@ namespace STRAFTAT_CC
         public Camera MainCamera { get; private set; }
         public List<PlayerCache> Players => _players;
         public Aimbot Aimbot { get; private set; }
-        public LegitBot LegitBot { get; private set; }
-        public TestEntity TestEntity { get; private set; }
         public Settings Settings { get; private set; }
 
         public Cache(float interval)
         {
             _updateInterval = interval;
             Aimbot = new Aimbot(this);
-            LegitBot = new LegitBot(this);
-            TestEntity = new TestEntity(this);
         }
 
         private void UpdateCache()
         {
+
             LocalController = Settings.Instance.localPlayer;
 
             if (!LocalController)
@@ -54,6 +51,7 @@ namespace STRAFTAT_CC
 
             if (LocalPlayer.IsValid)
             {
+
                 PlayerPickup playerPickup = LocalController.GetComponent<PlayerPickup>();
                 if (playerPickup)
                 {
@@ -64,6 +62,9 @@ namespace STRAFTAT_CC
 
             _players.Clear();
 
+
+
+
             foreach (GameObject gameObject in GameObject.FindGameObjectsWithTag("Player"))
             {
                 if (gameObject == LocalPlayer.GameObject)
@@ -73,6 +74,8 @@ namespace STRAFTAT_CC
 
                 if (player.IsValid)
                     _players.Add(player);
+
+
             }
         }
 
@@ -85,14 +88,6 @@ namespace STRAFTAT_CC
             }
 
             Aimbot.Update();
-            LegitBot.Update();
-            TestEntity.Update();
-        }
-
-        public void OnGUI()
-        {
-            LegitBot.OnGUI();
-            TestEntity.OnGUI();
         }
     }
 }

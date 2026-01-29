@@ -34,15 +34,18 @@ namespace STRAFTAT_CC.Features
 
         private void GodMode(PlayerHealth _localPlayer)
         {
+
             _localPlayer.sync___set_value_health(100f, _localPlayer.IsHost);
         }
 
         private void GodModeEnemy(PlayerHealth _enemyPlayer)
         {
+
             _enemyPlayer.sync___set_value_health(100f, true);
         }
 
         private readonly Cache _cache;
+
 
         private static void AntiAimMenu()
         {
@@ -58,34 +61,30 @@ namespace STRAFTAT_CC.Features
         public void Update()
         {
             PlayerCache _player = Cheat.Instance.Cache.LocalPlayer;
-            FirstPersonController localController = Cheat.Instance.Cache.LocalController;
 
             if (Config.Instance.GodMode)
             {
-                if (localController != null)
-                {
-                    var healthField = localController.GetType().GetField("health", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
-                    if (healthField != null)
-                    {
-                        healthField.SetValue(localController, 100f);
-                    }
-                }
+                GodMode(_player.PlayerHealth);
             }
 
-            if (Config.Instance.FlyMode)
+            if (UnityEngine.Input.GetKeyDown(KeyCode.F5))
             {
-                if (UnityEngine.Input.GetKey(KeyCode.Q))
-                {
-                    localController.transform.position += Vector3.down * 0.1f;
-                }
-                if (UnityEngine.Input.GetKey(KeyCode.E))
-                {
-                    localController.transform.position += Vector3.up * 0.1f;
-                }
+                _cache.Settings.rocketJumpsHatAch.Unlock();
+                _cache.Settings.windowsBrokenHatAch.Unlock();
+                _cache.Settings.headshotHatAch.Unlock();
+                _cache.Settings.ragdollsThrownAwayHatAch.Unlock();
+                _cache.Settings.taserShotsHatAch.Unlock();
+                _cache.Settings.noscopeHatAch.Unlock();
+                _cache.Settings.potsBrokenHatAch.Unlock();
+                _cache.Settings.fiveGamesHatAch.Unlock();
+                _cache.Settings.killsHatAch.Unlock();
+                _cache.Settings.propKillsHatAch.Unlock();
+                StatsAndAchievements.Client.StoreStats();
+                _cache.Settings.SteamAchievementsCheck();
             }
-
             AntiAimMenu();
             SpeedHack();
+           
         }
     }
 }

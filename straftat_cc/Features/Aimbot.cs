@@ -208,23 +208,13 @@ namespace STRAFTAT_CC.Features
             }
 
             Vector3 direction = (targetPosition - _cache.MainCamera.transform.position).normalized;
-            Quaternion targetRotation = Quaternion.LookRotation(direction);
-            _cache.LocalController.transform.rotation = Quaternion.Euler(0, targetRotation.eulerAngles.y, 0);
-            float targetPitch = targetRotation.eulerAngles.x;
-            if (targetPitch > 180) targetPitch -= 360;
-            targetPitch = Mathf.Clamp(targetPitch, -89f, 89f);
-
-            _cache.MainCamera.transform.rotation = Quaternion.Euler(
-                targetPitch,
-                targetRotation.eulerAngles.y,
-                0
-            );
 
             if (Config.Instance.AutoShoot)
             {
                 RaycastHit hit;
                 if (Physics.Raycast(_cache.MainCamera.transform.position, direction, out hit))
                 {
+
                     Transform rootTransform = hit.transform;
                     while (rootTransform.parent != null)
                     {
@@ -253,38 +243,36 @@ namespace STRAFTAT_CC.Features
                 MouseRelease();
                 _isMouseHold = false;
             }
+
+            Quaternion targetRotation = Quaternion.LookRotation(direction);
+            _cache.LocalController.transform.rotation = Quaternion.Euler(0, targetRotation.eulerAngles.y, 0);
+            float targetPitch = targetRotation.eulerAngles.x;
+            if (targetPitch > 180) targetPitch -= 360;
+            targetPitch = Mathf.Clamp(targetPitch, -89f, 89f);
+
+            _cache.MainCamera.transform.rotation = Quaternion.Euler(
+            targetPitch,
+            targetRotation.eulerAngles.y,
+            0
+            );
+
         }
 
-        private PlayerCache GetClosestTarget()
+        public PlayerCache GetClosestTarget()
         {
-            PlayerCache closestPlayer = null;
             float closestDistance = float.MaxValue;
+            PlayerCache closestPlayer = null;
 
-            // Check real players
-            foreach (var player in _cache.Players)
+            foreach (PlayerCache player in _cache.Players)
             {
-                if (!player.IsValid || player.PlayerHealth.health <= 0) continue;
+                if (!player.IsValid)
+                    continue;
 
                 float distance = Vector3.Distance(_cache.LocalPlayer.GameObject.transform.position, player.GameObject.transform.position);
                 if (distance < closestDistance)
                 {
                     closestDistance = distance;
                     closestPlayer = player;
-                }
-            }
-
-            // Check test entities
-            if (Config.Instance.TestEntityEnabled)
-            {
-                var testEntity = _cache.TestEntity.GetClosestTestEntity();
-                if (testEntity != null && testEntity.IsValid)
-                {
-                    float distance = Vector3.Distance(_cache.LocalPlayer.GameObject.transform.position, testEntity.GameObject.transform.position);
-                    if (distance < closestDistance)
-                    {
-                        closestDistance = distance;
-                        closestPlayer = testEntity;
-                    }
                 }
             }
 
