@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC5005E-82ED-4F9D-8DEC-CB481D897C6E}|straftat_cc.csproj|c:\\users\\ceo i matrix\\desktop\\sharp\\straftat.cc---cheat\\straftat_cc\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC5005E-82ED-4F9D-8DEC-CB481D897C6E}|straftat_cc.csproj|solutionrelative:config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC5005E-82ED-4F9D-8DEC-CB481D897C6E}|straftat_cc.csproj|C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC5005E-82ED-4F9D-8DEC-CB481D897C6E}|straftat_cc.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC5005E-82ED-4F9D-8DEC-CB481D897C6E}|straftat_cc.csproj|C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC5005E-82ED-4F9D-8DEC-CB481D897C6E}|straftat_cc.csproj|solutionrelative:utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC5005E-82ED-4F9D-8DEC-CB481D897C6E}|straftat_cc.csproj|C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\cheat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC5005E-82ED-4F9D-8DEC-CB481D897C6E}|straftat_cc.csproj|solutionrelative:cheat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC5005E-82ED-4F9D-8DEC-CB481D897C6E}|STRAFTSHAT.csproj|C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC5005E-82ED-4F9D-8DEC-CB481D897C6E}|STRAFTSHAT.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC5005E-82ED-4F9D-8DEC-CB481D897C6E}|straftat_cc.csproj|C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\features\\weaponmods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC5005E-82ED-4F9D-8DEC-CB481D897C6E}|straftat_cc.csproj|solutionrelative:features\\weaponmods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC5005E-82ED-4F9D-8DEC-CB481D897C6E}|straftat_cc.csproj|C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\features\\aimbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC5005E-82ED-4F9D-8DEC-CB481D897C6E}|straftat_cc.csproj|solutionrelative:features\\aimbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC5005E-82ED-4F9D-8DEC-CB481D897C6E}|straftat_cc.csproj|C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\features\\playermods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC5005E-82ED-4F9D-8DEC-CB481D897C6E}|straftat_cc.csproj|solutionrelative:features\\playermods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC5005E-82ED-4F9D-8DEC-CB481D897C6E}|straftat_cc.csproj|C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC5005E-82ED-4F9D-8DEC-CB481D897C6E}|straftat_cc.csproj|solutionrelative:entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC5005E-82ED-4F9D-8DEC-CB481D897C6E}|straftat_cc.csproj|C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\features\\esp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC5005E-82ED-4F9D-8DEC-CB481D897C6E}|straftat_cc.csproj|solutionrelative:features\\esp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC5005E-82ED-4F9D-8DEC-CB481D897C6E}|straftat_cc.csproj|C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\cache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC5005E-82ED-4F9D-8DEC-CB481D897C6E}|straftat_cc.csproj|solutionrelative:cache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\Main.cs",
+              "RelativeToolTip": "Main.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T20:43:21.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Entities.cs",
+              "DocumentMoniker": "C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\Entities.cs",
+              "RelativeDocumentMoniker": "Entities.cs",
+              "ToolTip": "C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\Entities.cs",
+              "RelativeToolTip": "Entities.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T14:48:33.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\Utils.cs",
+              "RelativeDocumentMoniker": "Utils.cs",
+              "ToolTip": "C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\Utils.cs",
+              "RelativeToolTip": "Utils.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T14:45:10.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Cache.cs",
+              "DocumentMoniker": "C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\Cache.cs",
+              "RelativeDocumentMoniker": "Cache.cs",
+              "ToolTip": "C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\Cache.cs",
+              "RelativeToolTip": "Cache.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T14:40:37.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerMods.cs",
+              "DocumentMoniker": "C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\Features\\PlayerMods.cs",
+              "RelativeDocumentMoniker": "Features\\PlayerMods.cs",
+              "ToolTip": "C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\Features\\PlayerMods.cs",
+              "RelativeToolTip": "Features\\PlayerMods.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T03:10:00.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeaponMods.cs",
+              "DocumentMoniker": "C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\Features\\WeaponMods.cs",
+              "RelativeDocumentMoniker": "Features\\WeaponMods.cs",
+              "ToolTip": "C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\Features\\WeaponMods.cs",
+              "RelativeToolTip": "Features\\WeaponMods.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAA9wAYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T14:39:18.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ESP.cs",
+              "DocumentMoniker": "C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\Features\\ESP.cs",
+              "RelativeDocumentMoniker": "Features\\ESP.cs",
+              "ToolTip": "C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\Features\\ESP.cs",
+              "RelativeToolTip": "Features\\ESP.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T14:39:12.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Aimbot.cs",
+              "DocumentMoniker": "C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\Features\\Aimbot.cs",
+              "RelativeDocumentMoniker": "Features\\Aimbot.cs",
+              "ToolTip": "C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\Features\\Aimbot.cs",
+              "RelativeToolTip": "Features\\Aimbot.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAIkAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T14:37:08.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Config.cs",
+              "DocumentMoniker": "C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\Config.cs",
+              "RelativeDocumentMoniker": "Config.cs",
+              "ToolTip": "C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\Config.cs",
+              "RelativeToolTip": "Config.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAgwIMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T22:00:24.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cheat.cs",
+              "DocumentMoniker": "C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\Cheat.cs",
+              "RelativeDocumentMoniker": "Cheat.cs",
+              "ToolTip": "C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\Cheat.cs",
+              "RelativeToolTip": "Cheat.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAqwA4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T14:37:11.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "C:\\Users\\CEO I Matrix\\Desktop\\sharp\\STRAFTAT.CC---Cheat\\straftat_cc\\Main.cs",
+              "RelativeToolTip": "Main.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T22:55:56.041Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
