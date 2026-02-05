@@ -22,13 +22,15 @@ namespace STRAFTAT_CC.Features
         // Speed Hack
         private static void SpeedHack()
         {
+            if (!Config.Instance.enableSpeedHack)
+                return;
+
             var controller = Cheat.Instance.Cache.LocalController;
             if (controller != null && walkSpeedField != null)
             {
                 float speedValue = Config.Instance.speedValue;
                 walkSpeedField.SetValue(controller, speedValue);
                 sprintSpeedField?.SetValue(controller, speedValue * 1.5f);
-                Debug.Log($"[SpeedHack] WalkSpeed set to {speedValue}");
             }
         }
 
